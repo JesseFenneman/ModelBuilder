@@ -1,0 +1,13 @@
+1. Download the JAVA project in zip file from (github link: https://github.com/JesseFenneman/ModelBuilder)
+2. Unpack the zip file
+3. Install R (tested with version 4.0.4; https://cran.r-project.org/bin/windows/base/)
+4. Install the latest JDK (at least SE 15.0.2, download at https://www.oracle.com/java/technologies/downloads/)
+5. Install the R package 'Rserve'
+6. Install the JAVA IDE of your choice (for testing I used ECLIPSE 2020-12, downloadable at https://www.eclipse.org/downloads/packages/)
+7. Install JAVAFX (for reference, see https://www.youtube.com/watch?v=bC4XB6JAaoU)
+8. Import the files that you downloaded from the github link to an Eclipse project
+8b. If you plan to run large models, consider adding the following runtime parameters: -Xms4g -Xmx20G
+		(adjust 4 and 20 G to the amount of RAM you are willing to dedicate)
+9. Run the program. Note, the first time the startup might take some time; R is installing the necessary packages in the background
+	- If eclipse is giving you issues about not finding the main, open the Central Executive > Start > CentralExecutive.java file in eclipse and 
+	run again.
